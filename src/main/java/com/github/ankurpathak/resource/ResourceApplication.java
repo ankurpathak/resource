@@ -14,7 +14,7 @@ public class ResourceApplication {
 
 
     @RequestMapping("/")
-    @CrossOrigin(origins="*", maxAge=3600, allowedHeaders={"X-Auth-Token", "X-Requested-With", "X-Xsrf-Token"})
+    //@CrossOrigin(origins="*", maxAge=3600, allowedHeaders={"X-Auth-Token", "X-Requested-With", "X-Xsrf-Token"})
     public Message home() {
         return new Message("Hello World");
     }

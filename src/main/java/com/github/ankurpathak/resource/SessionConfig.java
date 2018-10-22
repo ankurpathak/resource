@@ -8,10 +8,13 @@ import org.springframework.session.web.http.HttpSessionIdResolver;
 @Configuration
 public class SessionConfig  {
 
+    /*
     @Bean
     public HttpSessionIdResolver httpSessionStrategy() {
         return HeaderHttpSessionIdResolver.xAuthToken();
     }
+
+    */
 
 
 }
